@@ -18,11 +18,6 @@ project "GLFW"
         "src/window.c",
     }
 
-    defines
-    {
-        "GLFW_INCLUDE_NONE"
-    }
-
     filter "system:windows"
         systemversion "latest"
         staticruntime "On"
